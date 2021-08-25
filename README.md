@@ -22,5 +22,5 @@ pip install py-cpuinfo
 ## Benchmark
 
 ```bash
-python3 cpu-benchmark.py
+python cpu-benchmark.py
 ```
