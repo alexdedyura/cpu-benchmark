@@ -8,8 +8,9 @@ import cpuinfo # install CPU Info package (pip install py-cpuinfo)
 os_version = platform.system()
 
 print('Python CPU Benchmark by Alex Dedyura (Windows, macOS(Darwin), Linux)')
-print('OS: ' + str(os_version))
 print('CPU: ' + cpuinfo.get_cpu_info()['brand_raw'])
+print('Arch: ' + cpuinfo.get_cpu_info()['arch_string_raw'])
+print('OS: ' + str(os_version))
 
 print('\nBenchmarking: \n')
 
