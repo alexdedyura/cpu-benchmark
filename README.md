@@ -18,6 +18,12 @@ Supported architectures:
 
 https://www.python.org/downloads/
 
+### Clone repository and entering directory
+```bash
+git clone https://github.com/alexdedyura/cpu-benchmark
+cd cpu-benchmark
+```
+
 ### Install cpuinfo
 ```bash
 pip install py-cpuinfo
