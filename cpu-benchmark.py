@@ -3,7 +3,7 @@
 
 import time
 import platform
-import cpuinfo # install CPU Info package (pip install py-cpuinfo)
+import cpuinfo 
 
 os_version = platform.system()
 
