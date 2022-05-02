@@ -36,5 +36,6 @@ python cpu-benchmark.py
 | Apple M1 | ARM | macOS 11.5.2 | 19.534s | ✅ |
 | Intel Core i3-8100 | x86 | Windows 10 20H2 | 30.636s | ✅ |
 | Intel Xeon Gold 6125 | x86 | Linux (Hyper-V, 8 threads) | 30.781s | ✅ |
+| Raspberry Pi 400 | ARM | Ubuntu 20.04.4 LTS | 81.589s | ✅ |
 | Intel Xeon E5-2630 v4 | x86 | Windows Server 2012 | 49.883s | ✅ |
 | Neoverse N1 | ARM | Linux (Ubuntu 20.04, 4 threads) | 35.366s | ✅ |
