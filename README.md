@@ -35,6 +35,7 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 |--|--|--|--|--|
 | Apple M1 | ARM | macOS 11.5.2 | 19.534s | ✅ |
 | AMD Ryzen 5800X | x86 | Windows 11 22H2 | 16.389s | ✅ |
+| AMD Ryzen 5900HX | x86 | Unknown | 17.352s | ✅ |
 | Intel Core i3-8100 | x86 | Windows 10 20H2 | 30.636s | ✅ |
 | Intel Xeon Gold 6125 | x86 | Linux (Hyper-V, 8 threads) | 30.781s | ✅ |
 | Raspberry Pi 400 | ARM | Ubuntu 20.04.4 LTS | 81.589s | ✅ |
