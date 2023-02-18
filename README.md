@@ -34,6 +34,7 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | CPU | Arch |  OS | Perfomance (Avg.) | Verified |
 |--|--|--|--|--|
 | Apple M1 | ARM | macOS 11.5.2 | 19.534s | ✅ |
+| Apple M2 | ARM | macOS 13.2 | 14.779s | ✅ |
 | AMD Ryzen 5800X | x86 | Windows 11 22H2 | 16.389s | ✅ |
 | AMD Ryzen 5900HX | x86 | Unknown | 17.352s | ✅ |
 | Intel Core i3-8100 | x86 | Windows 10 20H2 | 30.636s | ✅ |
