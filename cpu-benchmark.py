@@ -41,4 +41,5 @@ for a in range(0,repeat_benchmark):
   print('Time: ' + str(duration) + 's')
 
 average_benchmark = round(average_benchmark / repeat_benchmark, 3)
-print('Average (from 10 repeats): ' + str(average_benchmark) + 's')
+print('Average (from {} repeats): {}s'.format(repeat_benchmark, average_benchmark))
+
