@@ -24,7 +24,7 @@ average_benchmark = 0
 
 for a in range(0,repeat_benchmark):
 
-  start = time.time()
+  start = time.perf_counter()
 
   for i in range(0,start_benchmark):
     for x in range(1,1000):
@@ -34,7 +34,7 @@ for a in range(0,repeat_benchmark):
     for x in range(1,10000):
       float(3.141592) / x
 
-  end = time.time()
+  end = time.perf_counter()
   duration = (end - start)
   duration = round(duration, 3)
   average_benchmark += duration
