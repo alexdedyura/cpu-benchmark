@@ -47,3 +47,4 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | Raspberry Pi 400 | ARM | Ubuntu 20.04.4 LTS | 81.589s | ✅ |
 | Intel Xeon E5-2630 v4 | x86 | Windows Server 2012 | 49.883s | ✅ |
 | Neoverse N1 | ARM | Linux (Ubuntu 20.04, 4 threads) | 35.366s | ✅ |
+| Snapdragon 8 Gen 1 | ARM | Linux | 40.789s | ✅ |
