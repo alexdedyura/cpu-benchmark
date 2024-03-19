@@ -45,7 +45,8 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | Intel Core i3-3337U | x86 | Ubuntu 22.04 LTS | 38.576s | ✅ |
 | Intel Core i3-8100 | x86 | Windows 10 20H2 | 30.636s | ✅ |
 | Intel Core i3-1115G4 | x86 | Arch Linux | 17.414s | ✅ |
-| Intel Xeon Gold 6125 | x86 | Linux (Hyper-V, 8 threads) | 30.781s | ✅ |
+| Intel Xeon E5 2683 v4 | x86 | Proxmox VE 8.1 (Debian 12) | 28.596s | ✅ |
+| Intel Xeon Gold 6125 | x86 | Linux (Hyper-V Server) | 30.781s | ✅ |
 | Intel Pentium Dual-Core E6700 | x86 | Linux | 41.714s | ✅ |
 | Raspberry Pi 4 | ARM | Ubuntu 22.04.3 LTS | 79.216s | ✅ |
 | Intel Xeon E5-2630 v4 | x86 | Windows Server 2012 | 49.883s | ✅ |
