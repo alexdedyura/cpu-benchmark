@@ -49,7 +49,7 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | Intel Pentium Dual-Core E6700 | x86 | Linux | 41.714s | ✅ |
 | Raspberry Pi 4 | ARM | Ubuntu 22.04.3 LTS | 79.216s | ✅ |
 | Intel Xeon E5-2630 v4 | x86 | Windows Server 2012 | 49.883s | ✅ |
-| Neoverse N1 | ARM | Linux (Ubuntu 20.04, 4 threads) | 35.366s | ✅ |
+| Neoverse N1 | ARM | Linux Ubuntu 20.04 | 35.366s | ✅ |
 | Huawei Kunpeng 920 | ARM | Linux | 79.399s | ✅ |
 | Snapdragon 8 Gen 1 | ARM | Linux | 40.789s | ✅ |
 | Docker on RPI 4 | ARM | Linux | 126.469s | ✅ |
