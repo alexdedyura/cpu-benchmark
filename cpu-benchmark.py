@@ -3,14 +3,15 @@
 
 import time
 import platform
-import cpuinfo 
+import cpuinfo
 
 os_version = platform.system()
 
 print('Python CPU Benchmark by Alex Dedyura (Windows, macOS(Darwin), Linux)')
 print('CPU: ' + cpuinfo.get_cpu_info().get('brand_raw', "Unknown"))
 print('Arch: ' + cpuinfo.get_cpu_info().get('arch_string_raw', "Unknown"))
-print('OS: ' + str(os_version))
+print('OS: ' + platform.system(), platform.release())
+print('Python version: ' + platform.python_version())
 
 print('\nBenchmarking: \n')
 
@@ -42,4 +43,3 @@ for a in range(0,repeat_benchmark):
 
 average_benchmark = round(average_benchmark / repeat_benchmark, 3)
 print('Average (from {} repeats): {}s'.format(repeat_benchmark, average_benchmark))
-
