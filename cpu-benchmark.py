@@ -5,13 +5,11 @@ import time
 import platform
 import cpuinfo
 
-os_version = platform.system()
-
 print('Python CPU Benchmark by Alex Dedyura (Windows, macOS(Darwin), Linux)')
 print('CPU: ' + cpuinfo.get_cpu_info().get('brand_raw', "Unknown"))
 print('Arch: ' + cpuinfo.get_cpu_info().get('arch_string_raw', "Unknown"))
 print('OS: ' + platform.system(), platform.release())
-print('Python version: ' + platform.python_version())
+print('Python: ' + platform.python_version())
 
 print('\nBenchmarking: \n')
 
