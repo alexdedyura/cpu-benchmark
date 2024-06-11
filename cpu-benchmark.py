@@ -13,31 +13,30 @@ print('Python: ' + platform.python_version())
 
 print('\nBenchmarking: \n')
 
-start_benchmark = 10000 # change this if you like (sample: 1000, 5000, etc)
-start_benchmark = int(start_benchmark)
+start_benchmark = 10000  # The number of iterations in each test
+repeat_benchmark = 10    # The number of repetitions of the test
 
-repeat_benchmark = 10 # attemps, change this if you like (sample: 3, 5, etc)
-repeat_benchmark = int(repeat_benchmark)
+# Initializing a variable to accumulate execution time
+total_duration = 0
 
-average_benchmark = 0
+# Starting the test cycle
+for attempt in range(repeat_benchmark):
+    start = time.perf_counter()  # Recording the initial time
+    
+    # Nested loops for performing calculations
+    for i in range(start_benchmark):
+        for x in range(1, 1000):
+            3.141592 * 2 ** x  # Multiplying the number Pi by 2 to the power of xx
+        for x in range(1, 10000):
+            float(x) / 3.141592  # Dividing x by Pi
+        for x in range(1, 10000):
+            float(3.141592) / x  # Dividing the number Pi by x
+    
+    end = time.perf_counter()  # Recording the end time
+    duration = round(end - start, 3)  # Calculate and round up the execution time
+    total_duration += duration  # Adding the execution time to the total amount
+    print(f'Time: {duration}s')  # We output the execution time for each iteration
 
-for a in range(0,repeat_benchmark):
-
-  start = time.perf_counter()
-
-  for i in range(0,start_benchmark):
-    for x in range(1,1000):
-      3.141592 * 2**x
-    for x in range(1,10000):
-      float(x) / 3.141592
-    for x in range(1,10000):
-      float(3.141592) / x
-
-  end = time.perf_counter()
-  duration = (end - start)
-  duration = round(duration, 3)
-  average_benchmark += duration
-  print('Time: ' + str(duration) + 's')
-
-average_benchmark = round(average_benchmark / repeat_benchmark, 3)
-print('Average (from {} repeats): {}s'.format(repeat_benchmark, average_benchmark))
+# Calculate and output the average execution time
+average_duration = round(total_duration / repeat_benchmark, 3)
+print(f'Average (from {repeat_benchmark} repeats): {average_duration}s')
