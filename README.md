@@ -52,7 +52,7 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | Neoverse N1 | ARM | Linux Ubuntu 20.04 | 35.366s | ✅ |
 | Huawei Kunpeng 920 | ARM | Linux | 79.399s | ✅ |
 | Snapdragon 8 Gen 1 | ARM | Linux | 40.789s | ✅ |
-| Docker on RPI 4 | ARM | Linux | 126.469s | ✅ |
+| Docker on RPI 3B | ARM | Linux | 126.469s | ✅ |
 | Docker on Apple M1 | ARM | Linux | 18.98s | ✅ |
 
 
