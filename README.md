@@ -38,6 +38,7 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | Apple M3 Pro | ARM | macOS 14.2.1 | 13.345s | ✅ |
 | Apple M3 Max | ARM | macOS 14.7 | 13.757s | ✅ |
 | Apple M4 | ARM | iPadOS 17.5 | 12.241s | ✅ |
+| Apple M4 Max | ARM | macOS | 12.144s | ✅ |
 | AMD Ryzen 5800H | x86 | Arch Linux | 15.906s | ✅ |
 | AMD Ryzen 5800X | x86 | Windows 11 22H2 | 16.389s | ✅ |
 | AMD Ryzen 5800X | x86 | Proxmox VE 8.1 (Debian 12) | 13.279s | ✅ |
