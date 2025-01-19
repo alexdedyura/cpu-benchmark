@@ -35,9 +35,11 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | Apple M1 | ARM | macOS 11.5.2 | 19.534s | ✅ |
 | Apple M1 Max | ARM | macOS 14.2.1 | 18.282s | ✅ |
 | Apple M2 | ARM | macOS 13.2 | 14.779s | ✅ |
+| Apple M2 Max (Mac14,13) | ARM | macOS 15.2 | 16.771s | ✅ |
 | Apple M3 | ARM | macOS 23.5.0 | 20.560s | ✅ |
 | Apple M3 Pro | ARM | macOS 14.2.1 | 13.345s | ✅ |
 | Apple M3 Max | ARM | macOS 14.7 | 13.757s | ✅ |
+| Apple M3 Max (Mac15,8) | ARM | macOS 15.2 | 15.266s | ✅ |
 | Apple M4 | ARM | iPadOS 17.5 | 12.241s | ✅ |
 | Apple M4 Pro | ARM | macOS 24.1.0 | 11.617s | ✅ |
 | Apple M4 Max | ARM | macOS | 12.144s | ✅ |
