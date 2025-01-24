@@ -3,7 +3,7 @@
 <p align="center">
   <img src="assets/favicon/cpu.svg" alt="cpu-logo" width="120px" height="120px"/>
   <br>
-  <i>My benchmark allows you to find out the performance of your processor. The program calculates pi with an accuracy of 10,000 decimal places. The time spent on the calculation is counted as the test result. The result is determined by the average of 10 attempts. Powered by Python3. Lower is Better. The benchmark is calculated only on 1 core/thread i.e. single core.</i>
+  <i>My benchmark allows you to find out the performance of your processor. The program math operations with pi an accuracy of 10,000 decimal places. The time spent on the calculation is counted as the test result. The result is determined by the average of 10 attempts. Powered by Python3. Lower is Better. The benchmark is calculated only on 1 core/thread i.e. single core.</i>
   <br>
 </p>
 
