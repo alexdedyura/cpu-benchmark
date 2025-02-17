@@ -47,6 +47,7 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | AMD Ryzen 5800X | x86 | Windows 11 22H2 | 16.389s | ✅ |
 | AMD Ryzen 5800X | x86 | Proxmox VE 8.1 (Debian 12) | 13.279s | ✅ |
 | AMD Ryzen 5900HX | x86 | Unknown | 17.352s | ✅ |
+| AMD Ryzen 4600H | x86 | Ubuntu 24.04.2 | 14.706s | ✅ |
 | AMD Ryzen 4300GE | x86 | Linux | 40.189s | ✅ |
 | Intel Core i3-12400 | x86 |Proxmox VE 8.2 (Debian 12) | 10.774s | ✅ |
 | Intel Core i3-3337U | x86 | Ubuntu 22.04 LTS | 38.576s | ✅ |
