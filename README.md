@@ -2,9 +2,9 @@
 
 <p align="center">
   <img src="assets/favicon/cpu.svg" alt="cpu-logo" width="120px" height="120px"/>
-  <br>
-  <i>My benchmark allows you to find out the performance of your processor. The program math operations with pi an accuracy of 10,000 decimal places. The time spent on the calculation is counted as the test result. The result is determined by the average of 10 attempts. Powered by Python3. Lower is Better. The benchmark is calculated only on 1 core/thread i.e. single core.</i>
-  <br>
+    <br>
+    <i>My benchmark allows you to find out the performance of your processor. The program performs math operations with pi to an accuracy of 10,000 decimal places. The time spent on the calculation is counted as the test result. The result is determined by the average of 10 attempts. Powered by Python3. Lower is better. The benchmark is calculated on both single core/thread and multicore for comparison.</i>
+    <br>
 </p>
 
 Supported architectures:
@@ -47,6 +47,7 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | AMD Ryzen 5800X | x86 | Windows 11 22H2 | 16.389s | ✅ |
 | AMD Ryzen 5800X | x86 | Proxmox VE 8.1 (Debian 12) | 13.279s | ✅ |
 | AMD Ryzen 5900HX | x86 | Unknown | 17.352s | ✅ |
+| AMD Ryzen 4600H | x86 | Ubuntu 24.04.2 | 14.706s | ✅ |
 | AMD Ryzen 4300GE | x86 | Linux | 40.189s | ✅ |
 | Intel Core i3-3337U | x86 | Ubuntu 22.04 LTS | 38.576s | ✅ |
 | Intel Core i3-8100 | x86 | Windows 10 20H2 | 30.636s | ✅ |
