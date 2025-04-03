@@ -48,10 +48,11 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | AMD Ryzen 5800X | x86 | Proxmox VE 8.1 (Debian 12) | 13.279s | ✅ |
 | AMD Ryzen 5900HX | x86 | Unknown | 17.352s | ✅ |
 | AMD Ryzen 4300GE | x86 | Linux | 40.189s | ✅ |
-| Intel Core i3-12400 | x86 |Proxmox VE 8.2 (Debian 12) | 10.774s | ✅ |
 | Intel Core i3-3337U | x86 | Ubuntu 22.04 LTS | 38.576s | ✅ |
 | Intel Core i3-8100 | x86 | Windows 10 20H2 | 30.636s | ✅ |
 | Intel Core i3-1115G4 | x86 | Arch Linux | 17.414s | ✅ |
+| Intel Core i7-1165G7 | x86 | Ubuntu 20.04.6 LTS | 16.885s | ✅ |
+| Intel Core i3-12400 | x86 | Proxmox VE 8.2 (Debian 12) | 10.774s | ✅ |
 | Intel Xeon E5 2683 v4 | x86 | Proxmox VE 8.1 (Debian 12) | 28.596s | ✅ |
 | Intel Xeon Gold 6125 | x86 | Linux (Hyper-V Server) | 30.781s | ✅ |
 | Intel Pentium Dual-Core E6700 | x86 | Linux | 41.714s | ✅ |
