@@ -29,7 +29,7 @@ cd cpu-benchmark
 python cpu-benchmark.py or python3 cpu-benchmark.py
 ```
 
-## Benchmark Results
+## Benchmark Results (single core)
 | CPU | Arch |  OS | Perfomance (Avg.) | Verified |
 |--|--|--|--|--|
 | Apple M1 | ARM | macOS 11.5.2 | 19.534s | ✅ |
@@ -49,12 +49,16 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | AMD Ryzen 5900HX | x86 | Unknown | 17.352s | ✅ |
 | AMD Ryzen 4600H | x86 | Ubuntu 24.04.2 | 14.706s | ✅ |
 | AMD Ryzen 4300GE | x86 | Linux | 40.189s | ✅ |
+| AMD Epyc 42444P | x86 | Windows Server 2025 | 13.985s | ✅ |
 | Intel Core i3-3337U | x86 | Ubuntu 22.04 LTS | 38.576s | ✅ |
 | Intel Core i3-8100 | x86 | Windows 10 20H2 | 30.636s | ✅ |
 | Intel Core i3-1115G4 | x86 | Arch Linux | 17.414s | ✅ |
 | Intel Core i7-1165G7 | x86 | Ubuntu 20.04.6 LTS | 16.885s | ✅ |
 | Intel Core i3-12400 | x86 | Proxmox VE 8.2 (Debian 12) | 10.774s | ✅ |
+| Intel Core Ultra 5 226V | x86 | Windows 11 | 13.169 | ✅ |
+| Intel Core i3-3337U | x86 | Ubuntu 22.04 LTS | 38.576s | ✅ |
 | Intel Xeon E5 2683 v4 | x86 | Proxmox VE 8.1 (Debian 12) | 28.596s | ✅ |
+| Intel Xeon E5 2236 | x86 | Windows Server 2022 | 26.702s | ✅ |
 | Intel Xeon Gold 6125 | x86 | Linux (Hyper-V Server) | 30.781s | ✅ |
 | Intel Pentium Dual-Core E6700 | x86 | Linux | 41.714s | ✅ |
 | Raspberry Pi 4 | ARM | Ubuntu 22.04.3 LTS | 79.216s | ✅ |
