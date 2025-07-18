@@ -50,6 +50,7 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | AMD Ryzen 5900HX | x86 | Unknown | 17.352s | ✅ |
 | AMD Ryzen 4600H | x86 | Ubuntu 24.04.2 | 14.706s | ✅ |
 | AMD Ryzen 4300GE | x86 | Linux | 40.189s | ✅ |
+| AMD Ryzen 7 4800H | x86 | Windows 11 | 16.386s | ✅ |
 | AMD Epyc 42444P | x86 | Windows Server 2025 | 13.985s | ✅ |
 | Intel Core i3-3337U | x86 | Ubuntu 22.04 LTS | 38.576s | ✅ |
 | Intel Core i3-8100 | x86 | Windows 10 20H2 | 30.636s | ✅ |
