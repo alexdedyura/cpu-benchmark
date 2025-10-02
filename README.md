@@ -72,5 +72,6 @@ python cpu-benchmark.py or python3 cpu-benchmark.py
 | Docker on RPI 3B | ARM | Linux | 126.469s | ✅ |
 | Docker on Apple M1 | ARM | Linux | 18.98s | ✅ |
 | WSL2 on AMD Ryzen Threadripper 3960X | x86_64 | Windows | 14.522s | ✅ |
+| 12th Gen Intel Core i3-1210U | x86_64 | Windows | 47.053s | ✅ |
 
 
