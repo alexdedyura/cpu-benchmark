@@ -29,6 +29,14 @@ cd cpu-benchmark
 python cpu-benchmark.py or python3 cpu-benchmark.py
 ```
 
+## UI (Cross-platform)
+
+```bash
+python cpu-benchmark-ui.py or python3 cpu-benchmark-ui.py
+```
+
+GUI version is based on Tkinter and works on Windows, macOS and Linux.
+
 ## Benchmark Results (single core)
 | CPU | Arch |  OS | Perfomance (Avg.) | Verified |
 |--|--|--|--|--|
