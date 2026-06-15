@@ -78,6 +78,7 @@ GUI version is based on Tkinter and works on Windows, macOS and Linux.
 | Huawei Kunpeng 920 | ARM | Linux | 79.399s | ✅ |
 | Snapdragon 8 Gen 1 | ARM | Linux | 40.789s | ✅ |
 | Snapdragon 625 | ARM | Linux | 149.585s | ✅ |
+| Snapdragon X Elite X1E78100 | ARM | Windows 11 | 14.62s | ✅ |
 | Docker on RPI 3B | ARM | Linux | 126.469s | ✅ |
 | Docker on Apple M1 | ARM | Linux | 18.98s | ✅ |
 | WSL2 on AMD Ryzen Threadripper 3960X | x86_64 | Windows | 14.522s | ✅ |
