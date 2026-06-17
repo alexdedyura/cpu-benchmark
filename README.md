@@ -76,6 +76,7 @@ GUI version is based on Tkinter and works on Windows, macOS and Linux.
 | Intel Xeon E5-2630 v4 | x86 | Windows Server 2012 | 49.883s | ✅ |
 | Neoverse N1 | ARM | Linux Ubuntu 20.04 | 35.366s | ✅ |
 | Huawei Kunpeng 920 | ARM | Linux | 79.399s | ✅ |
+| Huawei Kirin X90 | ARM | HarmonyOS | 25.491s | ✅ |
 | Snapdragon 8 Gen 1 | ARM | Linux | 40.789s | ✅ |
 | Snapdragon 625 | ARM | Linux | 149.585s | ✅ |
 | Docker on RPI 3B | ARM | Linux | 126.469s | ✅ |
