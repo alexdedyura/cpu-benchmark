@@ -66,7 +66,9 @@ GUI version is based on Tkinter and works on Windows, macOS and Linux.
 | Intel Core i3-1115G4 | x86 | Arch Linux | 17.414s | ✅ |
 | Intel Core i7-1165G7 | x86 | Ubuntu 20.04.6 LTS | 16.885s | ✅ |
 | Intel Core i3-12400 | x86 | Proxmox VE 8.2 (Debian 12) | 10.774s | ✅ |
+| Intel Core i7-14700KF | x86 | Windows 11 25H2 | 7.985s | ✅ |
 | Intel Core Ultra 5 226V | x86 | Windows 11 | 13.169 | ✅ |
+| 12th Gen Intel Core i3-1210U | x86 | Windows | 47.053s | ✅ |
 | Intel Core i3-3337U | x86 | Ubuntu 22.04 LTS | 38.576s | ✅ |
 | Intel Xeon E5 2683 v4 | x86 | Proxmox VE 8.1 (Debian 12) | 28.596s | ✅ |
 | Intel Xeon E5 2236 | x86 | Windows Server 2022 | 26.702s | ✅ |
@@ -84,6 +86,5 @@ GUI version is based on Tkinter and works on Windows, macOS and Linux.
 | Docker on RPI 3B | ARM | Linux | 126.469s | ✅ |
 | Docker on Apple M1 | ARM | Linux | 18.98s | ✅ |
 | WSL2 on AMD Ryzen Threadripper 3960X | x86_64 | Windows | 14.522s | ✅ |
-| 12th Gen Intel Core i3-1210U | x86_64 | Windows | 47.053s | ✅ |
 
 
