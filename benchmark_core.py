@@ -9,7 +9,12 @@ import platform
 import time
 from typing import Callable, Dict, List, Optional, Tuple
 
-import cpuinfo
+try:
+    # py-cpuinfo raises a bare Exception at import time on architectures it
+    # does not recognise, so the import itself has to be guarded.
+    import cpuinfo
+except Exception:  # noqa: BLE001 - depends on the host CPU architecture
+    cpuinfo = None
 
 
 @dataclass(frozen=True)
@@ -18,11 +23,21 @@ class BenchmarkConfig:
     repeats: int = 10
 
 
+def _read_cpu_info() -> Dict[str, str]:
+    """CPU details from py-cpuinfo, or an empty dict when it is unavailable."""
+    if cpuinfo is None:
+        return {}
+    try:
+        return cpuinfo.get_cpu_info()
+    except Exception:  # noqa: BLE001 - detection is best-effort, never fatal
+        return {}
+
+
 def get_system_info() -> Dict[str, str]:
-    info = cpuinfo.get_cpu_info()
+    info = _read_cpu_info()
     return {
-        "cpu": info.get("brand_raw", "Unknown"),
-        "arch": info.get("arch_string_raw", "Unknown"),
+        "cpu": info.get("brand_raw") or platform.processor() or "Unknown",
+        "arch": info.get("arch_string_raw") or platform.machine() or "Unknown",
         "os": f"{platform.system()} {platform.release()}",
         "python": platform.python_version(),
     }
